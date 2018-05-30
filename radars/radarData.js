@@ -1,6 +1,6 @@
 //This is the title for your window tab, and your Radar
-document.title = "WotifGroup's Technology Radar (December 2014)";
-
+document.title = "Genuine Pro Practice Radar (2018.6)";
+document.subtitle = "出品人：梅尧臣、惠超、郭瑞紫、朱海波、陈丽萍、陈颖、陈旭、王岩";
 
 //This is the concentic circles that want on your radar
 var radar_arcs = [

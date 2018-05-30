@@ -1,5 +1,6 @@
 function init(h,w) {
   $('#title').text(document.title);  
+  $('#subtitle').text(document.subtitle);  
 	   
  var radar = new pv.Panel()
       .width(w)
