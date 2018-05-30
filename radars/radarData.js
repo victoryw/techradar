@@ -1,6 +1,6 @@
 //This is the title for your window tab, and your Radar
 document.title = "Genuine Pro Practice Radar (2018.6)";
-document.subtitle = "出品人：梅尧臣、惠超、郭瑞紫、朱海波、陈丽萍、陈颖、陈旭、王岩";
+document.subtitle = "出品人：梅尧臣、惠超、郭瑞紫、罗飘、朱海波、陈丽萍、陈颖、陈旭、王岩";
 
 //This is the concentic circles that want on your radar
 var radar_arcs = [
@@ -58,12 +58,12 @@ var radar_data = [
             {"name":"DevOps的任务纳入技术卡管理并估点", "pc":{"r":80,"t":120},"movement":"c"},
             {"name":"采用jira作为进度管理工具", "pc":{"r":90,"t":140},"movement":"c"}, 
             {"name":"采用confluence作为知识管理工具", "pc":{"r":90,"t":160},"movement":"c"},
-            {"name":"与安全团队合作 build security in", "pc":{"r":70,"t":160},"movement":"c"},   
-            {"name":"通过calendar来管理 code review", "pc":{"r":130,"t":140},"movement":"c"}, 
+            {"name":"与安全团队合作 build security in", "pc":{"r":60,"t":160},"movement":"c"},   
+            {"name":"首先将前后端的契约构建在story卡上", "pc":{"r":70,"t":140},"movement":"c"},   
+            {"name":"通过calendar来管理code review", "pc":{"r":130,"t":140},"movement":"c"}, 
             {"name":"临时pair为新人做知识导入", "pc":{"r":170,"t":160},"movement":"c"},
             {"name":"在retro时回顾circle time", "pc":{"r":90,"t":170},"movement":"c"},
-            {"name":"在desk check/sign off时候，Dev 演示故事卡内容", "pc":{"r":290,"t":170},"movement":"c"},
-            // {"name":"在desk check/sign off时候，Dev 演示故事卡内容", "pc":{"r":300,"t":165},"movement":"c"}
+            {"name":"在desk check/sign off时候，Dev 演示故事卡内容", "pc":{"r":290,"t":170},"movement":"c"}
         ]
     },
     { "quadrant": "基础设施及平台",
@@ -71,85 +71,32 @@ var radar_data = [
         "top" : 18,
         "color" : "#587486",
         "items" : [ 
-
-{ name: 'Docker', pc: { r: 170, t: 19 }, movement: 't' },
-  { name: 'bind',    pc: { r: 150, t: 69 },    movement: 'c' },
-  { name: 'Appium',    pc: { r: 110, t: 70 },    movement: 'c',    domain: 'mobile, front-end' }, 
- { name: 'Android Studio',    pc: { r: 180, t: 66 },    movement: 'c',    domain: 'mobile, dev' },
-  { name: 'Responsive Android',    pc: { r: 150, t: 14 },    movement: 'c' },
-  { name: 'AutoLayout - iOS',    pc: { r: 180, t: 55 },    movement: 'c',    domain: '' },
-  { name: 'Kiwi - iOS unit test',    pc: { r: 120, t: 14 },    movement: 'c',    domain: '' },
-  { name: 'BEM',    pc: { r: 160, t: 60 },    movement: 'c',    domain: 'front-end' },
-  { name: 'Crashlytics',    pc: { r: 180, t: 5 },    movement: 'c',    domain: 'mobile' },
-  { name: 'Consul',    pc: { r: 170, t: 29 },    movement: 't' }, 
-   { name: 'Swagger Code-Gen',    pc: { r: 180, t: 82 },    movement: 'c' },
-   { name: 'PowerMock ^',    pc: { r: 180, t: 46 },    movement: 'c' },
-   { name: 'Mockito',    pc: { r: 170, t: 84 },    movement: 'c',    domain: 'back-end' },
-   { name: 'Json Web Tokens (JWT)',    pc: { r: 180, t: 77 },    movement: 'c' },
-   { name: 'Lemming',    pc: { r: 160, t: 82 },    movement: 'c' },
-   { name: 'Hystrix',    pc: { r: 150, t: 36 },    movement: 'c' },
-  { name: 'Git',    pc: { r: 130, t: 73 },    movement: 'c' },
-
-  { name: 'Ansible',    pc: { r: 280, t: 74 },    movement: 'c' },  
-  { name: 'Hip Chat',    pc: { r: 280, t: 78 },    movement: 'c' },
-  { name: 'Trello',    pc: { r: 260, t: 75 },    movement: 'c' },
-  { name: 'Charles HTTP Proxy',    pc: { r: 260, t: 48 },    movement: 'c' },
-  { name: 'Xamarin', pc: { r: 280, t: 51 }, movement: 'c' },
-  { name: 'Android Annotations',    pc: { r: 280, t: 25 },    movement: 'c' },
-  { name: 'GenyMotion',    pc: { r: 210, t: 31 },    movement: 'c' },
-
-  { name: 'JDBI ^',    pc: { r: 80, t: 56 },    movement: 'c' },
-  { name: 'Kafka',    pc: { r: 12, t: 25 },    movement: 'c',    domain: 'back-end' },
-  { name: 'ELK',    pc: { r: 30, t: 72 },    movement: 'c',    domain: 'back-end' },
-  { name: 'Liquibase',    pc: { r: 80, t: 76 },    movement: 'c' },
-  { name: 'haproxy',    pc: { r: 80, t: 46 },    movement: 'c' },
-
-  { name: 'AppManager ^',    pc: { r: 360, t: 82 },    movement: 'c' },
-  { name: 'Hibernate ^',    pc: { r: 380, t: 56 },    movement: 'c' },
-  { name: 'mongoDB',    pc: { r: 330, t: 5 },    movement: 'c' }, 
-  { name: 'Subversion',    pc: { r: 330, t: 18 },    movement: 'c' }
-  ]
+            {name: 'Docker', pc: { r: 90, t: 19 }, movement: 'c' }
+        ]
     },
-    { "quadrant": "Platforms",
+    { "quadrant": "CI/CD devops",
         "left" :45,
          "top" : (h/2 + 18),
         "color" : "#DC6F1D",
         "items" : [
-
-            {"name":"OpenId Connect", "pc":{"r":130,"t":260},"movement":"t"},   
-            {"name":"Location based services", "pc":{"r":130,"t":230},"movement":"c"},
-            {"name":"Openstack", "pc":{"r":190,"t":190},"movement":"c"},
-            {"name":"RHEL 7", "pc":{"r":170,"t":215},"movement":"c"},      
-
-            {"name":"App containers", "pc":{"r":250,"t":260},"movement":"c"},
-            {"name":"Google Cloud Data Flow", "pc":{"r":275,"t":260},"movement":"t"},
-            { name: 'Postgres as NoSQL',              pc: { r: 220, t: 255 },              movement: 'c' },
-            {"name":"AWS 2014 Innovations", "pc":{"r":270,"t":195},"movement":"c"},
-            {"name":"Azure", "pc":{"r":290,"t":265},"movement":"c"},   
-            { name: 'Mesos',              pc: { r: 260, t: 265 },              movement: 't' },
-            { name: 'Marathon',              pc: { r: 240, t: 268 },              movement: 't' },
-            { name: 'Kubernetes',              pc: { r: 270, t: 236 },              movement: 't' },
-            {"name":"Google App Engine", "pc":{"r":290,"t":255},"movement":"c"},   
-            {"name":"Google as corporate platform", "pc":{"r":290,"t":200},"movement":"c"},   
-
-
-            {"name":"Google Play - (alpha/beta builds)", "pc":{"r":30,"t":225},"movement":"c"},
-            {"name":"JVM as platform", "pc":{"r":90,"t":265},"movement":"c"},   
-            {"name":"AWS", "pc":{"r":90,"t":250},"movement":"c"},   
-            { name: 'BigIP v11',              pc: { r: 50, t: 257 },              movement: 'c' },
-
-
-
-            {"name":"Ruby On Rails", "pc":{"r":390,"t":215},"movement":"c"},
-            {"name":"Everest", "pc":{"r":390,"t":185},"movement":"c"},   
-            {"name":"Magnolia CMS", "pc":{"r":390,"t":235},"movement":"c"},   
-            {"name":"Java EE - the Bad Parts", "pc":{"r":390,"t":245},"movement":"c"},   
-            {"name":"MS SqlServer", "pc":{"r":390,"t":190},"movement":"c"},
-            {"name":"RHEL 5", "pc":{"r":370,"t":195},"movement":"c"}
-
+            {"name":"ansible", "pc":{"r":70,"t":190},"movement":"c"},   
+            {"name":"docker & docker-compose", "pc":{"r":50,"t":210},"movement":"c"},
+            {"name":"infrastructure as code", "pc":{"r":70,"t":220},"movement":"c"},    
+            {"name":"pipeline as code", "pc":{"r":50,"t":240},"movement":"c"},    
+            {"name":"rolling upgrade", "pc":{"r":80,"t":240},"movement":"c"},    
+            {"name":"In-process component tests", "pc":{"r":140,"t":230},"movement":"c"},    
+            {"name":"sonarqube", "pc":{"r":130,"t":220},"movement":"c"}, 
+            {"name":"GoCD", "pc":{"r":130,"t":240},"movement":"c"},    
+            {"name":"embedded-redis", "pc":{"r":110,"t":220},"movement":"c"},    
+            {"name":"通过sub-module的方式共享代码", "pc":{"r":210,"t":220},"movement":"c"},    
+            {"name":"独立的dev环境", "pc":{"r":250,"t":215},"movement":"c"},  
+            {"name":"jenkins", "pc":{"r":190,"t":240},"movement":"c"},    
+            {"name":"不同环境共享一个镜像库", "pc":{"r":330,"t":240},"movement":"c"}, 
+            {"name":"在jenkins中手工指定参数进行不同环境的部署", "pc":{"r":340,"t":260},"movement":"c"},
+            {"name":"在配置管理中直接使用ip地址，而不是url或者机器名", "pc":{"r":350,"t":230},"movement":"c"}
         ]
     },
-    { "quadrant": "Languages & Frameworks",
+    { "quadrant": "语言、框架和技术",
         "color" : "#B70062",
         "left"  : (w-200+30),
         "top" :   (h/2 + 18),
