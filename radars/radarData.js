@@ -98,41 +98,42 @@ var radar_data = [
             {"name":"GoCD", "pc":{"r":130,"t":240},"movement":"c"},    
             {"name":"embedded-redis", "pc":{"r":110,"t":220},"movement":"c"},    
             {"name":"通过sub-module的方式共享代码", "pc":{"r":210,"t":220},"movement":"c"},    
-            {"name":"独立的dev环境", "pc":{"r":250,"t":215},"movement":"c"},  
+            {"name":"独立的dev环境^", "pc":{"r":250,"t":215},"movement":"c"},  
             {"name":"jenkins", "pc":{"r":190,"t":240},"movement":"c"},    
             {"name":"不同环境共享一个镜像库", "pc":{"r":330,"t":240},"movement":"c"}, 
             {"name":"在jenkins中手工指定参数进行不同环境的部署", "pc":{"r":340,"t":260},"movement":"c"},
-            {"name":"在配置管理中直接使用ip地址，而不是url或者机器名", "pc":{"r":350,"t":230},"movement":"c"}
+            {"name":"在配置管理中直接使用ip地址，而不是url或者机器名", "pc":{"r":350,"t":230},"movement":"c"},
+            {"name":"iOS基于多scheme和多config的分环境打包", "pc":{"r":350,"t":200},"movement":"c"}
         ]
     },
-    { "quadrant": "语言、框架和技术",
+    { "quadrant": "语言、框架和工具",
         "color" : "#B70062",
         "left"  : (w-200+30),
         "top" :   (h/2 + 18),
         "items" : [ 
-            { name: 'CDI', pc: { r: 60, t: 290 },  movement: 'c' },
-            { name: 'Jersey', pc: { r: 60, t: 310 },  movement: 'c' },
-
-            { name: 'Guice', pc: { r: 60, t: 278 },  movement: 'c' },
-            { name: 'RxJava', pc: { r: 150, t: 298 },              movement: 'c',  domain: 'template' },          
-
-            {"name":"Java 8", "pc":{"r":130,"t":355},"movement":"c"},   
-            {"name":"Groovy ^", "pc":{"r":190,"t":280},"movement":"c"},
-
-            {"name":"Swift", "pc":{"r":280,"t":300},"movement":"c"},
-            {"name":"Scala - the good parts ^", "pc":{"r":290,"t":320},"movement":"c"},   
-            {"name":"Serverside Javascript", "pc":{"r":220,"t":275},"movement":"c"},   
-            {"name":"Coffeescript", "pc":{"r":270,"t":282},"movement":"c"},
-            {"name":"Functional Reactive Programming", "pc":{"r":285,"t":330},"movement":"c"},   
-            {"name":"Clojure", "pc":{"r":280,"t":310},"movement":"c"},
-            { name: 'RxJs',              pc: { r: 250, t: 338 },              movement: 'c',              domain: 'template' },
-            { name: 'Web Components', pc: { r: 260, t: 330 },  movement: 'c' },
-
-            { name: 'Mustache/Handlebars template',   pc: { r: 50, t: 298 },              movement: 'c',              domain: 'template' },
-            { name: 'Spring ^', pc: { r: 360, t: 330 },  movement: 'c' },
-            {"name":"Web Objects", "pc":{"r":390,"t":290},"movement":"c"},
-            {"name":"ASP Classic", "pc":{"r":375,"t":330},"movement":"c"},
-            {"name":"Java 6 and earlier", "pc":{"r":390,"t":350},"movement":"c"}
+            { name: 'RestTemplate', pc: { r: 60, t: 290 },  movement: 'c' },
+            { name: 'OpenID Connect', pc: { r: 110, t: 320 },  movement: 'c' },
+            { name: 'Redux', pc: { r: 90, t: 310 },  movement: 'c' },
+            { name: 'React-Native', pc: { r: 20, t: 300 },  movement: 'c' },
+            { name: 'Webpack', pc: { r: 40, t: 300 },  movement: 'c' },
+            { name: 'Flyway', pc: { r: 60, t: 320 },  movement: 'c' },
+            { name: 'Spring Boot Test', pc: { r: 90, t: 298 },              movement: 'c',  domain: 'template' },          
+            {"name":"JWT", "pc":{"r":90,"t":355},"movement":"c"},   
+            {"name":"Apache Tika", "pc":{"r":60,"t":340},"movement":"c"},
+            {"name":"Quartz", "pc":{"r":70,"t":350},"movement":"c"},
+            {"name":"swagger2", "pc":{"r":30,"t":320},"movement":"c"},   
+            {"name":"使用 redis 来生成有序 ID", "pc":{"r":120,"t":275},"movement":"c"},   
+            {"name":"wiremock", "pc":{"r":160,"t":282},"movement":"c"},
+            {"name":"passay", "pc":{"r":180,"t":330},"movement":"c"},   
+            {"name":"网易云信", "pc":{"r":280,"t":310},"movement":"c"},
+            { name: 'redis as queue',              pc: { r: 250, t: 338 },              movement: 'c',              domain: 'template' },
+            { name: 'kaptcha', pc: { r: 160, t: 330 },  movement: 'c' },
+            { name: 'Spring Boot 1.5',   pc: { r: 330, t: 298 },              movement: 'c',              domain: 'template' },
+            { name: 'java 8', pc: { r: 350, t: 330 },  movement: 'c' },
+            {"name":"junit4", "pc":{"r":340,"t":290},"movement":"c"},
+            {"name":"驭缘支付", "pc":{"r":200,"t":330},"movement":"c"},
+            {"name":"个推", "pc":{"r":220,"t":350},"movement":"c"},
+            {"name":"Knex", "pc":{"r":90,"t":330},"movement":"c"}
         ]
     }
 ];
