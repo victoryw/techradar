@@ -57,6 +57,7 @@ var radar_data = [
             {"name": 'kick off时，由dev描述卡的业务场景和要点', "pc": { r: 80, t: 100 }, "movement": 'c' },
             {"name": 'kick off前，QA提前准备好check list', "pc": { r: 100, t: 100 }, "movement": 'c' },
             {"name":"DevOps的任务纳入技术卡管理并估点", "pc":{"r":80,"t":120},"movement":"c"},
+            {"name":"在前后端分离的项目上，把story 也拆分sub story来分别追踪前后端进度", "pc":{"r":60,"t":120},"movement":"c"},
             {"name":"采用jira作为进度管理工具", "pc":{"r":90,"t":140},"movement":"c"}, 
             {"name":"采用confluence作为知识管理工具", "pc":{"r":90,"t":160},"movement":"c"},
             {"name":"与安全团队合作 build security in", "pc":{"r":60,"t":160},"movement":"c"},   
