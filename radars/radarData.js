@@ -65,7 +65,8 @@ var radar_data = [
             {"name":"通过calendar来管理code review", "pc":{"r":130,"t":140},"movement":"c"}, 
             {"name":"临时pair为新人做知识导入", "pc":{"r":170,"t":160},"movement":"c"},
             {"name":"在retro时回顾circle time", "pc":{"r":90,"t":170},"movement":"c"},
-            {"name":"在desk check/sign off时候，Dev 演示故事卡内容", "pc":{"r":290,"t":170},"movement":"c"}
+            {"name":"在desk check/sign off时候，Dev 演示故事卡内容", "pc":{"r":310,"t":170},"movement":"c"},
+            {"name":"独立的dev环境^", "pc":{"r":250,"t":170},"movement":"c"},  
         ]
     },
     { "quadrant": "基础设施及平台",
@@ -99,7 +100,6 @@ var radar_data = [
             {"name":"GoCD", "pc":{"r":130,"t":240},"movement":"c"},    
             {"name":"embedded-redis", "pc":{"r":110,"t":220},"movement":"c"},    
             {"name":"通过sub-module的方式共享代码", "pc":{"r":210,"t":220},"movement":"c"},    
-            {"name":"独立的dev环境^", "pc":{"r":250,"t":215},"movement":"c"},  
             {"name":"jenkins", "pc":{"r":190,"t":240},"movement":"c"},    
             {"name":"不同环境共享一个镜像库", "pc":{"r":330,"t":240},"movement":"c"}, 
             {"name":"在jenkins中手工指定参数进行不同环境的部署", "pc":{"r":340,"t":260},"movement":"c"},
