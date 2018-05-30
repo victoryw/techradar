@@ -55,6 +55,7 @@ var radar_data = [
         "color" : "#8FA227",
         "items" : [ 
             {"name": 'kick off时，由dev描述卡的业务场景和要点', "pc": { r: 80, t: 100 }, "movement": 'c' },
+            {"name": 'kick off前，QA提前准备好check list', "pc": { r: 100, t: 100 }, "movement": 'c' },
             {"name":"DevOps的任务纳入技术卡管理并估点", "pc":{"r":80,"t":120},"movement":"c"},
             {"name":"采用jira作为进度管理工具", "pc":{"r":90,"t":140},"movement":"c"}, 
             {"name":"采用confluence作为知识管理工具", "pc":{"r":90,"t":160},"movement":"c"},
@@ -71,7 +72,14 @@ var radar_data = [
         "top" : 18,
         "color" : "#587486",
         "items" : [ 
-            {name: 'Docker', pc: { r: 90, t: 19 }, movement: 'c' }
+            {name: 'Nginx', pc: { r: 10, t: 30 }, movement: 'c' },
+            {name: '听云 APM', pc: { r: 30, t: 60 }, movement: 'c' },
+            {name: 'PostgreSQL hot standby server', pc: { r: 120, t: 19 }, movement: 'c' },
+            {name: 'Redis Sentinel', pc: { r: 90, t: 20 }, movement: 'c' },
+            {name: 'EFK', pc: { r: 140, t: 40 }, movement: 'c' },
+            {name: 'Backup', pc: { r: 160, t: 80 }, movement: 'c' },
+            {name: 'Prometheus+Grafana', pc: { r: 120, t: 60 }, movement: 'c' },
+            {name: 'Nagios', pc: { r: 220, t: 60 }, movement: 'c' },
         ]
     },
     { "quadrant": "CI/CD devops",
@@ -86,6 +94,7 @@ var radar_data = [
             {"name":"rolling upgrade", "pc":{"r":80,"t":240},"movement":"c"},    
             {"name":"In-process component tests", "pc":{"r":140,"t":230},"movement":"c"},    
             {"name":"sonarqube", "pc":{"r":130,"t":220},"movement":"c"}, 
+            {"name":"jacoco", "pc":{"r":30,"t":220},"movement":"c"}, 
             {"name":"GoCD", "pc":{"r":130,"t":240},"movement":"c"},    
             {"name":"embedded-redis", "pc":{"r":110,"t":220},"movement":"c"},    
             {"name":"通过sub-module的方式共享代码", "pc":{"r":210,"t":220},"movement":"c"},    
