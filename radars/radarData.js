@@ -131,7 +131,7 @@ var radar_data = [
             { name: 'Spring Boot 1.5',   pc: { r: 330, t: 298 },              movement: 'c',              domain: 'template' },
             { name: 'java 8', pc: { r: 350, t: 330 },  movement: 'c' },
             {"name":"junit4", "pc":{"r":340,"t":290},"movement":"c"},
-            {"name":"驭缘支付", "pc":{"r":200,"t":330},"movement":"c"},
+            {"name":"驭缘支付", "pc":{"r":195,"t":310},"movement":"c"},
             {"name":"个推", "pc":{"r":220,"t":350},"movement":"c"},
             {"name":"Knex", "pc":{"r":90,"t":330},"movement":"c"}
         ]
