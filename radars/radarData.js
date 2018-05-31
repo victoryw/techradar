@@ -100,7 +100,7 @@ var radar_data = [
             {"name":"不同环境共享一个镜像库", "pc":{"r":330,"t":240},"movement":"c"}, 
             {"name":"在jenkins中手工指定参数进行不同环境的部署", "pc":{"r":340,"t":260},"movement":"c"},
             {"name":"在配置管理中直接使用ip地址，而不是url或者机器名", "pc":{"r":350,"t":230},"movement":"c"},
-            {"name":"iOS基于多scheme和多config的分环境打包", "pc":{"r":350,"t":200},"movement":"c"}
+            {"name":"iOS基于多scheme和多config的分环境打包", "pc":{"r":280,"t":200},"movement":"c"}
         ]
     },
     { "quadrant": "语言、框架和工具",
