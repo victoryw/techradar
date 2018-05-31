@@ -110,9 +110,6 @@ var radar_data = [
         "items" : [ 
             { name: 'RestTemplate', pc: { r: 60, t: 290 },  movement: 'c' },
             { name: 'OpenID Connect', pc: { r: 110, t: 320 },  movement: 'c' },
-            { name: 'Redux', pc: { r: 90, t: 310 },  movement: 'c' },
-            { name: 'React-Native', pc: { r: 20, t: 300 },  movement: 'c' },
-            { name: 'Webpack', pc: { r: 40, t: 300 },  movement: 'c' },
             { name: 'Flyway', pc: { r: 60, t: 320 },  movement: 'c' },
             { name: 'Spring Boot Test', pc: { r: 90, t: 298 },              movement: 'c',  domain: 'template' },          
             {"name":"JWT", "pc":{"r":90,"t":355},"movement":"c"},   
