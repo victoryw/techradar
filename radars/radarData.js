@@ -1,6 +1,5 @@
 //This is the title for your window tab, and your Radar
 document.title = "Genuine Pro Practice Radar (2018.6)";
-document.subtitle = "出品人：梅瑶辰、惠超、郭瑞紫、罗飘、朱海波、陈丽萍、陈颖、陈旭、王岩";
 
 //This is the concentic circles that want on your radar
 var radar_arcs = [
@@ -49,7 +48,7 @@ var h = 1000;
 var w = 1200;
 
 var radar_data = [
-    { "quadrant": "过程实践",
+    { "quadrant": "过程改进",
         "left" : 45,
         "top" : 18,
         "color" : "#8FA227",
@@ -62,10 +61,7 @@ var radar_data = [
             {"name":"采用confluence作为知识管理工具", "pc":{"r":90,"t":160},"movement":"c"},
             {"name":"与安全团队合作 build security in", "pc":{"r":60,"t":160},"movement":"c"},   
             {"name":"首先将前后端的契约构建在story卡上", "pc":{"r":70,"t":140},"movement":"c"},   
-            {"name":"通过calendar来管理code review", "pc":{"r":130,"t":140},"movement":"c"}, 
-            {"name":"临时pair为新人做知识导入", "pc":{"r":170,"t":160},"movement":"c"},
             {"name":"在retro时回顾circle time", "pc":{"r":90,"t":170},"movement":"c"},
-            {"name":"在desk check/sign off时候，Dev 演示故事卡内容", "pc":{"r":310,"t":170},"movement":"c"},
             {"name":"独立的dev环境^", "pc":{"r":250,"t":170},"movement":"c"},  
         ]
     },
@@ -76,7 +72,7 @@ var radar_data = [
         "items" : [ 
             {name: 'Nginx', pc: { r: 10, t: 30 }, movement: 'c' },
             {name: '听云 APM', pc: { r: 30, t: 60 }, movement: 'c' },
-            {name: 'PostgreSQL hot standby server', pc: { r: 120, t: 19 }, movement: 'c' },
+            {name: 'PostgreSQL hot standby server', pc: { r: 210, t: 19 }, movement: 'c' },
             {name: 'Redis Sentinel', pc: { r: 90, t: 20 }, movement: 'c' },
             {name: 'EFK', pc: { r: 140, t: 40 }, movement: 'c' },
             {name: 'Backup', pc: { r: 160, t: 80 }, movement: 'c' },
@@ -135,7 +131,15 @@ var radar_data = [
             {"name":"驭缘支付", "pc":{"r":195,"t":310},"movement":"c"},
             {"name":"个推", "pc":{"r":120,"t":350},"movement":"c"},
             {"name":"Knex", "pc":{"r":90,"t":330},"movement":"c"},
-            {"name":"Apache HttpClient", "pc":{"r":320,"t":330},"movement":"c"}
+            {"name":"Apache HttpClient", "pc":{"r":320,"t":330},"movement":"c"},
+            {"name":"Ant Design", "pc":{"r":80,"t":271},"movement":"c"},
+            {"name":"Immutable", "pc":{"r":70,"t":291},"movement":"c"},
+            {"name":"react-native-keyboard-aware-scroll-view", "pc":{"r":100,"t":291},"movement":"c"},
+            {"name":"react-native-router-flux", "pc":{"r":130,"t":291},"movement":"c"},
+            {"name":"百度地图组件", "pc":{"r":220,"t":321},"movement":"c"},
+            {"name":"高德地图组件", "pc":{"r":140,"t":321},"movement":"c"},
+            {"name":"date-fns", "pc":{"r":160,"t":321},"movement":"c"},
+            {"name":"react-native-config", "pc":{"r":250,"t":321},"movement":"c"}
         ]
     }
 ];
